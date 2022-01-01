@@ -1,6 +1,21 @@
 mat-toolbar {
     background: #1C58F2;
     color: white;
+    text-align: center;
+    justify-content: center;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1rem;
+        padding: .5rem;
+        border-radius: 4px;
+    }
+}
+
+.router-link-active {
+    background-color: #fff;
+    color: #000 !important;
 }
 
 mat-sidenav {
@@ -18,7 +33,7 @@ mat-sidenav {
     border-radius: 10px;
     margin: 16px;
     margin-left: 32px;
-
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,5 +45,3 @@ mat-sidenav {
 mat-sidenav-container {
     height: calc(100vh - 65px);
 }
-
-

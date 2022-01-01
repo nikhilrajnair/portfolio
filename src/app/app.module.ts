@@ -11,12 +11,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './shared/sidenav/sidenav.component';
+import { WorkhistoryComponent } from './workhistory/workhistory.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SidenavComponent
+    SidenavComponent,
+    WorkhistoryComponent
   ],
   imports: [
     BrowserModule,
