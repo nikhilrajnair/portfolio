@@ -29,7 +29,7 @@ mat-sidenav {
 }
 
 .content {
-    height: calc(100vh - 98px);
+    min-height: calc(100vh - 98px);
     border-radius: 10px;
     margin: 16px;
     margin-left: 32px;
@@ -37,9 +37,12 @@ mat-sidenav {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 
-    // font-size: 2rem;
-    // color: lightgray;
+    @media (max-width:786px) {
+        margin-left: 16px;
+
+    }
 }
 
 mat-sidenav-container {
