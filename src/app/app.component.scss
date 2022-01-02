@@ -11,6 +11,12 @@ mat-toolbar {
         padding: .5rem;
         border-radius: 4px;
     }
+    @media (max-width:786px) {
+        justify-content: space-between;
+        a{
+            font-size: .8rem;
+        }
+    }
 }
 
 .router-link-active {
