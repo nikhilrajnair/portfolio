@@ -17,7 +17,7 @@ export interface PortfolioList {
 
 const PORTFOLIO_LIST: PortfolioList[] = [
   { id: 1, title: 'Velocity LLC', link: 'https://vintllc.com' },
-  { id: 2, title: 'E.D. Marshall Jewelers', link: 'https://www.truventor.ai' },
+  { id: 2, title: 'E.D. Marshall Jewelers', link: 'https://edmarshalljewelers.com/' },
   { id: 3, title: 'Truventor AI', link: 'https://www.truventor.ai' },
   { id: 4, title: 'Wellthy Therapeutics', link: 'https://www.wellthytherapeutics.com/' },
   { id: 7, title: 'Ozo', link: 'https://ozo.club/' },
