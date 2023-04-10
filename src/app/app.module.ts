@@ -12,13 +12,15 @@ import { MatDividerModule } from '@angular/material/divider';
 import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './shared/sidenav/sidenav.component';
 import { WorkhistoryComponent } from './workhistory/workhistory.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SidenavComponent,
-    WorkhistoryComponent
+    WorkhistoryComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
