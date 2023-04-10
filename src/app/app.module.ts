@@ -20,7 +20,7 @@ import { WorkhistoryComponent } from './workhistory/workhistory.component';
     HomeComponent,
     SidenavComponent,
     WorkhistoryComponent,
-    PortfolioComponent
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,8 +31,9 @@ import { WorkhistoryComponent } from './workhistory/workhistory.component';
     MatButtonModule,
     MatIconModule,
     MatDividerModule
+
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
