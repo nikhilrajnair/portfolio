@@ -1,29 +1,30 @@
-.home{
-    // background-image: url('../../assets/img/dp.jpg');
-    // background-size: cover;
-    .data{
-        h1{
-            font-weight: 600;
-            font-size: 3rem;
-            color: #000;
-            line-height: 1.23;
-            span{
-                color: #1C58F2;
-            }
-        }
-        p{
-            color: #767676;
-        }
+.home {
+  // background-image: url('../../assets/img/dp.jpg');
+  // background-size: cover;
+  .data {
+    h1 {
+      font-weight: 600;
+      font-size: 3rem;
+      color: #000;
+      line-height: 1.23;
+      span {
+        color: #2b2d42;
+      }
     }
+    p {
+      color: #767676;
+    }
+  }
 }
 
 ::ng-deep.particles-js-canvas-el {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 100%;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
 }
+
 
