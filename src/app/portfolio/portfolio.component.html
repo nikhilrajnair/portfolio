@@ -5,16 +5,21 @@
         <div class="data">
           <h1>Portfolio Links<br>
           </h1>
-
         </div>
       </div>
       <div class="col-md-12">
-        <div class="porfolio-list" *ngFor="let data of portfolioList">
+        <div class="porfolio-list">
           <div class="row">
-            <div class="col-md-5">
-              <h5 class="me-3">{{data?.title}}</h5>
-            </div>
-            <div class="col-md-6"> <a href="{{data?.link}}" target="_blank">{{data?.link}}</a>
+            <div class="col-md-6" *ngFor="let data of portfolioList">
+              <div class="card d-flex p-2 mb-2">
+                <div>
+                  <img [src]="data.imageUrl" class="card-image" />
+                </div>
+                <div class="ms-2">
+                  <h5 class="me-3">{{data?.title}}</h5>
+                  <a href="{{data?.link}}" target="_blank">{{data?.link}}</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
