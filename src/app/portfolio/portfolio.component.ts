@@ -22,7 +22,9 @@ const PORTFOLIO_LIST: PortfolioList[] = [
   { id: 4, title: 'Wellthy Therapeutics', link: 'https://www.wellthytherapeutics.com/' },
   { id: 7, title: 'Ozo', link: 'https://ozo.club/' },
   { id: 5, title: 'Spiceland Travel', link: 'http://spiceland.travel/' },
+  { id: 8, title: 'Sherazi Pets', link: 'https://www.sherazi.pet/' },
+  { id: 9, title: 'Croydon', link: 'https://www.croydonfashions.com/' },
   { id: 6, title: 'La Salette India', link: 'http://lasaletteindia.com/' },
-  { id: 7, title: 'La Salette India', link: 'https://www.muthoothealthcare.com/kozhenchery/' },
+  { id: 7, title: 'Muthoot Hospitals', link: 'https://www.muthoothealthcare.com/' },
 
 ];
